@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px 20px 400px 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.container {
+    background: #ffffff;
+    border: 2px dashed #bcccff;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 40px auto;
+    max-width: 600px;
+    height: 180px;
+    box-sizing: border-box;
+}
+
+.container p {
+    margin: 0 0 10px 0;
+    font-weight: bold;
+    color: #555;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    background-color: #ddd;
+}
+
+.pos-static {
+    position: static;
+}
+
+.pos-relative {
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+.relative-parent {
+    position: relative;
+}
+
+.pos-absolute {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    border: 3px solid #333;
+}
+
+.pos-fixed {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    border: 3px solid #ff4757;
+}
+
+.sticky-container {
+    height: 300px; 
+    overflow-y: auto; 
+}
+
+.pos-sticky {
+    position: sticky;
+    top: 2px;
+    border: 3px solid #2ed573;
+}
+
+.container.inherit-box {
+    border: 2px solid #000; 
+    position: relative;
+}
+
+.inherited-parent {
+    position: absolute;
+    top: 40px;
+    right: 50px;
+}
+
+.pos-inherit {
+    position: inherit; 
+}

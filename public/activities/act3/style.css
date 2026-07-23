@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    height: 100%;
+    background: #111;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+canvas{
+    flex: 1;
+    display: block;
+    width: 33.33%;
+    height: 100%;
+    border: 1px solid #333;
+}

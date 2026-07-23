@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    background-color: #111;
+    font-family: sans-serif;
+    color: white;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+.section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #333;
+    position: relative;
+}
+.section:last-child { border-right: none; }
+h2 {
+    position: absolute;
+    top: 20px;
+    margin: 0;
+    pointer-events: none;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+canvas {
+    width: 250px;
+    height: 250px;
+    cursor: grab;
+}
+canvas:active { cursor: grabbing; }
